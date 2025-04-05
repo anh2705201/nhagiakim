@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Alchemist by Paulo Coelho - Follow Your Personal Legend</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            color: #333;
+            background-color: #fcf9f2;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+        }
+        .cta-button {
+            background: linear-gradient(to right, #ffa751, #ffe259);
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .testimonial-card {
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+        .format-card {
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .format-card:hover {
+            border-color: #ffa751;
+            transform: translateY(-5px);
+        }
+        .desert-divider {
+            height: 120px;
+            background-image: url('https://cdn.jsdelivr.net/gh/tailwindcss/heropatterns@0.4.2/public/patterns/desert.svg');
+            background-size: 400px;
+            opacity: 0.1;
+        }
+        .quote-mark {
+            font-family: Georgia, serif;
+            font-size: 80px;
+            line-height: 0;
+            position: relative;
+            top: 40px;
+            opacity: 0.2;
+        }
+        .gold-text {
+            color: #B8860B;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-6 md:px-12 flex justify-between items-center">
+            <div class="text-xl font-bold gold-text">The Alchemist</div>
+            <div class="flex space-x-6">
+                <a href="#book" class="text-gray-600 hover:text-amber-600 transition-colors">The Book</a>
+                <a href="#author" class="text-gray-600 hover:text-amber-600 transition-colors">Author</a>
+                <a href="#pricing" class="text-gray-600 hover:text-amber-600 transition-colors">Purchase</a>
+                <a href="#testimonials" class="text-gray-600 hover:text-amber-600 transition-colors">Reviews</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-20 md:py-32">
+        <div class="container mx-auto px-6 md:px-12">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+                        Discover Your Personal Legend
+                    </h1>
+                    <p class="text-xl md:text-2xl text-white opacity-90 mb-8">
+                        The international bestseller that has inspired millions to follow their dreams
+                    </p>
+                    <a href="#pricing" class="cta-button inline-block py-3 px-8 text-lg font-semibold text-gray-800 rounded-full shadow-lg">
+                        Get Your Copy Today
+                    </a>
+                </div>
+                <div class="md:w-2/5 flex justify-center">
+                    <img src="https://m.media-amazon.com/images/I/81FPzmB5fgL.jpg" alt="The Alchemist Book Cover" class="rounded-lg shadow-2xl h-auto max-w-full transform -rotate-3 hover:rotate-0 transition-transform duration-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Overview Section -->
+    <section id="book" class="py-20 bg-white">
+        <div class="container mx-auto px-6 md:px-12">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">A Fable About Following Your Dreams</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">
+                    Over 150 million copies sold worldwide in more than 80 languages
+                </p>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 pr-0 md:pr-12">
+                    <h3 class="text-2xl font-semibold mb-6 gold-text">Journey to Your Destiny</h3>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        <span class="font-semibold">The Alchemist</span> tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different—and far more satisfying—than he ever imagined.
+                    </p>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        Santiago's journey teaches us about the essential wisdom of listening to our hearts, recognizing opportunity, and following our dreams. The story has inspired people all over the world to live their dreams and follow their destiny.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                        Along the way, he meets a Gypsy woman, a man who calls himself king, and an alchemist, all of whom point Santiago in the direction of his quest. No one knows what the treasure is, or if Santiago will be able to surmount the obstacles in his path. But what starts out as a journey to find worldly goods turns into a discovery of the treasure found within.
+                    </p>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="grid grid-cols-2 gap-4">
+                        <img src="https://m.media-amazon.com/images/I/41wWPMUgAfL._AC_UF1000,1000_QL80_.jpg" alt="The Alchemist Cover" class="rounded-lg shadow-md h-auto max-w-full">
+                        <img src="https://i.ebayimg.com/images/g/1AgAAOSw5ORksAj6/s-l1200.jpg" alt="The Alchemist Paperback" class="rounded-lg shadow-md h-auto max-w-full">
+                        <img src="https://m.media-amazon.com/images/I/91bJX1GnHnL._AC_UF1000,1000_QL80_.jpg" alt="The Alchemist Special Edition" class="rounded-lg shadow-md h-auto max-w-full">
+                        <img src="https://m.media-amazon.com/images/I/81UGPuNl7kL._UF1000,1000_QL80_.jpg" alt="The Alchemist Graphic Novel" class="rounded-lg shadow-md h-auto max-w-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="desert-divider"></div>
+
+    <!-- Author Section -->
+    <section id="author" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 md:px-12">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-10 md:mb-0">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd1dcBCD0XH9OUMMv2Lk_ztUmCYD0agGjd1Oh5BQ&s=0" alt="Paulo Coelho" class="rounded-full shadow-xl mx-auto" style="max-width: 250px;">
+                </div>
+                <div class="md:w-2/3 md:pl-12">
+                    <h2 class="text-3xl font-bold mb-6">About Paulo Coelho</h2>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        Paulo Coelho de Souza is a Brazilian lyricist and novelist who has become one of the most widely read authors in the world. His books have sold more than 225 million copies worldwide and have been translated into more than 80 languages.
+                    </p>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        Born in Rio de Janeiro in 1947, Coelho's journey to becoming a writer was not straightforward. Before dedicating his life to literature, he worked as a director, theater actor, songwriter, and journalist. His breakthrough came when, at the age of 38, he experienced a spiritual awakening during his pilgrimage along the Road to Santiago de Compostela in Spain.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                        <span class="font-semibold">The Alchemist</span>, published in 1988, established Coelho as a world-renowned author. The book's profound messages about following one's dreams and listening to one's heart have resonated with readers of all ages across the globe.
+                    </p>
+                    <p class="mt-6 italic gold-text">
+                        "When you want something, all the universe conspires in helping you to achieve it."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Themes Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6 md:px-12">
+            <h2 class="text-3xl font-bold text-center mb-16">Universal Themes That Resonate</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-amber-50 p-8 rounded-lg shadow-sm">
+                    <div class="text-amber-500 text-4xl mb-4">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Personal Legend</h3>
+                    <p class="text-gray-700">
+                        The idea that each person has a unique path or purpose in life that they must discover and pursue to find true fulfillment.
+                    </p>
+                </div>
+                
+                <div class="bg-amber-50 p-8 rounded-lg shadow-sm">
+                    <div class="text-amber-500 text-4xl mb-4">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Universal Language</h3>
+                    <p class="text-gray-700">
+                        The concept that there exists a language beyond words that connects all things—the language of enthusiasm, dreams, and love.
+                    </p>
+                </div>
+                
+                <div class="bg-amber-50 p-8 rounded-lg shadow-sm">
+                    <div class="text-amber-500 text-4xl mb-4">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Dreams & Destiny</h3>
+                    <p class="text-gray-700">
+                        The transformative power of pursuing one's dreams and the idea that the journey itself is as important as the destination.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 md:px-12">
+            <h2 class="text-3xl font-bold text-center mb-6">Choose Your Format</h2>
+            <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto">
+                Find the perfect edition of The Alchemist to accompany you on your own personal journey
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Paperback Edition -->
+                <div class="format-card bg-white p-8 text-center">
+                    <div class="h-48 flex items-center justify-center mb-6">
+                        <img src="https://m.media-amazon.com/images/I/81FPzmB5fgL.jpg" alt="Paperback Edition" class="h-full object-contain">
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Paperback Edition</h3>
+                    <p class="text-gray-500 mb-4">25th Anniversary Edition</p>
+                    <p class="text-2xl font-bold gold-text mb-6">$17.99</p>
+                    <ul class="text-left text-gray-700 mb-8">
+                        <li class="mb-2 flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 208 pages</li>
+                        <li class="mb-2 flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Portable and lightweight</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Publisher: HarperOne</li>
+                    </ul>
+                    <a href="#" class="cta-button block py-3 px-8 text-lg font-semibold text-gray-800 rounded-full shadow-md hover:shadow-lg">
+                        Buy Paperback
+                    </a>
+                </div>
+                
+                <!-- Hardcover Edition -->
+                <div class="format-card bg-white p-8 text-center border-amber-400">
+                    <div class="h-48 flex items-center justify-center mb-6">
+                        <img src="https://m.media-amazon.com/images/I/91bJX1GnHnL._AC_UF1000,1000_QL80_.jpg" alt="Hardcover Edition" class="h-full object-contain">
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Hardcover Edition</h3>
+                    <p class="text-gray-500 mb-4">Collector's Edition</p>
+                    <p class="text-2xl font-bold gold-text mb-6">$24.99</p>
+                    <ul class="text-left text-gray-700 mb-8">
+                        <li class="mb-2 flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Premium binding</li>
+                        <li class="mb-2 flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Includes special afterword</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Gift-ready packaging</li>
+                    </ul>
+                    <a href="#" class="cta-button block py-3 px-8 text-lg font-semibold text-gray-800 rounded-full shadow-md hover:shadow-lg">
+                        Buy Hardcover
+                    </a>
+                </div>
+                
+                <!-- Digital Editions -->
+                <div class="format-card bg-white p-8 text-center">
+                    <div class="h-48 flex items-center justify-center mb-6">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Publication111/v4/5a/23/10/5a231085-a455-131c-8e1b-8d1331f6e5de/9780062416216_marketingimage.jpg/1200x630wz.png" alt="Digital Edition" class="h-full object-contain">
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Digital Edition</h3>
+                    <p class="text-gray-500 mb-4">eBook & Audiobook</p>
+                    <p class="text-2xl font-bold gold-text mb-6">$12.99</p>
+                    <ul class="text-left text-gray-700 mb-8">
+                        <li class="mb-2 flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Instant download</li>
+                        <li class="mb-2 flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> eBook compatible with all devices</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Audiobook narrated by Jeremy Irons</li>
+                    </ul>
+                    <a href="#" class="cta-button block py-3 px-8 text-lg font-semibold text-gray-800 rounded-full shadow-md hover:shadow-lg">
+                        Buy Digital
+                    </a>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <p class="text-gray-600 mb-8">
+                    Also available at these retailers:
+                </p>
+                <div class="flex flex-wrap justify-center gap-8">
+                    <a href="#" class="text-gray-500 hover:text-gray-700">
+                        <i class="fab fa-amazon text-4xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-700">
+                        <i class="fas fa-book text-4xl"></i> Barnes & Noble
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-700">
+                        <i class="fab fa-apple text-4xl"></i> Apple Books
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-700">
+                        <i class="fas fa-headphones text-4xl"></i> Audible
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="container mx-auto px-6 md:px-12">
+            <h2 class="text-3xl font-bold text-center mb-16">Reader Testimonials</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-white p-8 border border-gray-100">
+                    <div class="quote-mark gold-text">"</div>
+                    <p class="text-gray-700 mb-8 italic">
+                        The Alchemist is more than just a book—it's a journey of self-discovery and resilience. It taught me to listen to my heart and follow my dreams with courage.
+                    </p>
+                    <div class="flex items-center">
+                        <div class="text-amber-500">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="ml-4 font-semibold">Sarah K.</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-white p-8 border border-gray-100">
+                    <div class="quote-mark gold-text">"</div>
+                    <p class="text-gray-700 mb-8 italic">
+                        This book changed my perspective on life. The simple yet profound wisdom it contains has inspired me to pursue what truly matters to me. A timeless masterpiece.
+                    </p>
+                    <div class="flex items-center">
+                        <div class="text-amber-500">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="ml-4 font-semibold">David M.</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-white p-8 border border-gray-100">
+                    <div class="quote-mark gold-text">"</div>
+                    <p class="text-gray-700 mb-8 italic">
+                        I've read The Alchemist multiple times over the years, and each reading reveals new layers of meaning. The book reminds us not to give up and to keep moving forward despite obstacles.
+                    </p>
+                    <div class="flex items-center">
+                        <div class="text-amber-500">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="ml-4 font-semibold">Michael T.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <p class="text-gray-600 mb-4">
+                    Join over 150 million readers who have been inspired by this international bestseller
+                </p>
+                <div class="text-4xl text-amber-500 mb-6">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span class="text-gray-700 text-lg ml-2">4.7/5 based on 135,000+ reviews</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Highlights -->
+    <section class="py-20 hero-gradient text-white">
+        <div class="container mx-auto px-6 md:px-12">
+            <h2 class="text-3xl font-bold text-center mb-16">Why The Alchemist Resonates</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">An International Phenomenon</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-4"></i>
+                            <span>Translated into more than 80 languages</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-4"></i>
+                            <span>Over 150 million copies sold worldwide</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-4"></i>
+                            <span>Featured on the New York Times bestseller list for over 430 weeks</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-4"></i>
+                            <span>One of the most translated books by a living author</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Universal Appeal</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-4"></i>
+                            <span>Explores themes relevant to all cultures and ages</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-4"></i>
+                            <span>Combines spirituality, wisdom, and adventure</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-4"></i>
+                            <span>Simple yet profound storytelling with deep messages</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle mt-1 mr-4"></i>
+                            <span>Encourages readers to follow their dreams and personal journeys</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <p class="text-xl mb-8 max-w-2xl mx-auto">
+                    "When you want something, all the universe conspires in helping you to achieve it."
+                </p>
+                <a href="#pricing" class="inline-block py-3 px-8 bg-white text-amber-600 font-semibold rounded-full shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">
+                    Begin Your Journey
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6 md:px-12 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Discover Your Personal Legend?</h2>
+            <p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
+                Join millions of readers who have found inspiration and wisdom in Paulo Coelho's masterpiece
+            </p>
+            <a href="#pricing" class="cta-button inline-block py-4 px-10 text-xl font-bold text-gray-800 rounded-full shadow-lg">
+                Get Your Copy Today
+            </a>
+            <p class="mt-6 text-gray-500">
+                Special offer: Free shipping on orders over $35
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="container mx-auto px-6 md:px-12">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-xl font-bold text-white mb-3">The Alchemist</h3>
+                    <p>By Paulo Coelho</p>
+                    <p>© HarperOne Publishing</p>
+                </div>
+                
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-facebook-f text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-goodreads-g text-xl"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between">
+                <div class="mb-4 md:mb-0">
+                    <a href="#" class="text-gray-400 hover:text-white mr-6 transition-colors">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white mr-6 transition-colors">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Contact</a>
+                </div>
+                <p class="text-gray-500 text-sm">
+                    This website is not affiliated with Paulo Coelho or HarperOne Publishing. For educational purposes only.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
